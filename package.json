@@ -1,0 +1,31 @@
+{
+	"name": "ejemplo-uso-biome",
+	"version": "0.0.0",
+	"type": "module",
+	"license": "Unlicense",
+	"author": "Sergio Gallardo",
+	"scripts": {
+		"dev": "waku dev",
+		"build": "waku build",
+		"start": "waku start",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write"
+	},
+	"dependencies": {
+		"react": "~19.2.4",
+		"react-dom": "~19.2.4",
+		"react-server-dom-webpack": "~19.2.4",
+		"waku": "1.0.0-alpha.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.6",
+		"@tailwindcss/vite": "^4.2.1",
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
+		"@vitejs/plugin-react": "^5.1.0",
+		"babel-plugin-react-compiler": "^1.0.0",
+		"tailwindcss": "^4.2.1",
+		"typescript": "^5.9.3"
+	}
+}
